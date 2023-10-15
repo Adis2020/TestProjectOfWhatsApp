@@ -1,12 +1,14 @@
 import './App.css';
-import Header from "./components/welcomePage/header/Header";
-
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import WelcomePage from "./components/welcomePage/WelcomePage";
 
 function App() {
     return (
-        <div className="App">
-            <Header/>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="registration" element={<WelcomePage/>}/>
+            </Routes>
+        </BrowserRouter>
     );
 }
 
