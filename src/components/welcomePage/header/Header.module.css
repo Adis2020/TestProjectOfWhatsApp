@@ -1,8 +1,8 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 25%;
+    justify-content: center;
+    gap: 20%;
 }
 
 .menuImg {
