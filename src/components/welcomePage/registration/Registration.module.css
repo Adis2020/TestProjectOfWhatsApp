@@ -1,0 +1,18 @@
+.registration {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainText {
+    display: flex;
+    justify-content: center;
+}
+
+.submit,
+.submit:active,
+.submit:focus {
+    height: 60px;
+    font-size: 20px;
+    border: 2px solid #e34761;
+}
