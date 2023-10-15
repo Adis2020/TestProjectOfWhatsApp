@@ -1,9 +1,9 @@
 import React from 'react';
-import s from './WelcomePage.module.css';
+import s from './RegistrationPage.module.css';
 import Header from "./header/Header";
 import Registration from "./registration/Registration";
 
-const WelcomePage = () => {
+const RegistrationPage = () => {
     return (
         <div className={s.welcomePage}>
             <Header/>
@@ -12,4 +12,4 @@ const WelcomePage = () => {
     );
 };
 
-export default WelcomePage;
+export default RegistrationPage;
